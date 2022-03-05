@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<Head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="CSS/CSSPortfolio.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</Head>
+
+<body>
+    <nav>
+        <div class="profile">
+            <img src="Image/Profile.jpg" alt="Photo de profile">
+            <h1>Leo Milovanovic</h1>
+        </div>
+        <ul>
+            <li><a href="Portfolio.html">Accueil</a></li>
+            <li><a href="Aproposdemoi.html">A propos de moi</a></li>
+        </ul>
+        
+    </nav>
+
+    <section class="page-content">
+        <header>
+            <h1>Bonjour a tous ! Je me présente, je m'appelle Léo ! Et si je vous écrits aujourd'hui c'est pour vous présenter mon recueille de bataille ! Ou mon Portfolio pour utiliser des termes plus morderne. humhum...</h1>
+            <p>Je suis un developpeur full-stack. Je possède donc de multiples compétences dans le milieu de l'informatique, capable de coder dans de nombreux langages mais également d'optimiser et de gérer des projets pour les mener à bien. Je vous laisse analyser les prochaines images de ce caroussel résumant mes différentes capacités.</p>
+            <p>Je suis également une personne très vivante et très energique. En clair, j'estime que chaque jour qui passe se doit d'être vécu à fond ! Et je ne baisse jamais les bras ! Je suis intéressé par le monde et tout ce qui m'entoure. J'ai toujours soif de connaissances et ne laisse jamais la morosité me rattraper, ce qui fait de moi un vecteur   de motivation en équipe !</p>
+        </header>
+
+        <div class="slideshow-container">
+        
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="Image/Fullstack.jpg" style="width:100%" alt="fullstack">
+              <div class="text">Fullstack</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="Image/Langage.jpg" style="width:100%" alt="Langage">
+              <div class="text"> Langage maitrisé </div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="Image/chef-de-projet.jpg" style="width:100%" alt="Leadership">
+              <div class="text">Leadership</div>
+            </div>
+
+        
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+        
+
+        <section class="Project-Section">
+            <h1>Mes Projets Réalisés</h1>
+            <div class="Projects">
+                    <div class="Project">
+                        <h4>Jeu-vidéo avec Unity</h4>
+                        <p class="Description">Création d'un jeu-vidéo de type Tower-Defense. </p>
+                        <p class="Dates">2021/2022</p>
+                    </div>
+                    <div class="Project">
+                        <h4>API Open Food Facts</h4>
+                        <p class="Description">Création d'un site en Java-script et HMTL pour pouvoir récupérer des informations sur un produit alimentaire. </p>
+                        <p class="Dates">2021/2022</p>
+                    </div>
+                    <div class="Project">
+                        <h4>Portfolio</h4>
+                        <p class="Description">Création de mon premier Portfolio ( que vous êtes d'ailleurs en train de lire ;D ) </p>
+                        <p class="Dates">2021/2022</p>
+                    </div>
+                    <div class="Project">
+                        <h4>Base de données SQL</h4>
+                        <p class="Description">Création d'une base de données en SQL logé sur WampServer.
+                        <p class="Dates">2021/2022</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <div class="colonne1">
+            <h3>Mes Compétences</h3>
+            <p>Développement dans de Multiple langages</p>
+            <p>Capable d'optimiser un projet</p>
+            <p>Très bon Leadership et maitrise des méthodologies de projet</p>
+            <p>Très bonne capacités d'adaptation à chaque situation, avec n'importe quelle équipe</p>
+        </div>
+        <div class="colonne2">
+            <h3>Me contacter</h3>
+            <a href="mailto:leomilo719@gmail.com"><i class="fas fa-envelope"></i> Gmail : leomilo719@gmail.com</a>
+            <a href="https://www.facebook.com/profile.php?id=100009336220878"><p><i class="fab fa-facebook"></i> Facebook : Leo Milovanovic</p></a>
+            <a href="https://www.instagram.com/_denhetsu_/"><p><i class="fab fa-instagram"></i> Instagram : _denhetsu_</p></a>
+            <a href="https://www.linkedin.com/in/l%C3%A9o-milovanovic-279323224/"><i><i class="fab fa-linkedin"></i> Linkedin</i></a>
+        </div>
+        </div>
+    </footer>
+
+</body>
+
+
+<script src="JS/JSPortfolio.js"></script>
+
+
+</html>

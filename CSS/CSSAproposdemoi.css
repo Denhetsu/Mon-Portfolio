@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Metal Mania', cursive;
+    background-image:url(https://i.pinimg.com/originals/4d/9b/cd/4d9bcdbd007e5f5305105b0039d65c17.jpg);
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: none ;
+}
+nav .profile {
+    display: flex;
+    align-items: center;
+    transform: translate(10%);
+}
+nav .profile img {
+    width: 45px;
+    height: 50px;
+    border-radius: 50%;
+}
+nav .profile h1{
+    margin-left: 20px;
+    font-size: 25px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    transform: translate(-10%);
+}
+nav ul li{
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li:hover{
+    border-bottom-color: black;
+}
+.page-content{
+    margin: 4%;
+}
+.page-content header{
+    margin-top: 5%;
+    max-width: 80%;
+}
+.page-content header h1{
+    margin: 0%;
+    padding: 0%;
+    transform: translate(15%,0%);    ;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.6vw;
+}
+.Histoire{
+    margin: 4%;
+    margin-left: 6.3%;
+}
+.Histoire h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2vw;
+}
+.Histoire p{
+    margin: 2%;
+    text-transform: 1vw;
+    font-size: 1.2vw;
+}
+.Histoire img{
+    max-width: 22%;
+    height: auto;
+    transition: 0.5s;
+    float: right;
+    padding-left: 5%;
+}
+.Experiences{
+    margin: 4%;
+    margin-left: 6.3%;
+}
+.Experiences h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2vw;
+}
+.Experiences p{
+    margin: 2%;
+    text-transform: 1vw;
+    font-size: 1.2vw;
+}
+.Photo-Personnel{
+    margin: 5%;;
+}
+.Photo-Personnel img{
+    max-width: 40%;
+    height: auto;
+    transition: 0.5s;
+    transform: translate(76%);;
+
+}
+.Formations{
+    margin: 4%;
+    margin-left: 6.3%;
+}
+.Formations h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2vw;
+}
+.Formations p{
+    margin: 2%;
+    text-transform: 1vw;
+    font-size: 1.2vw;
+}
+.Formations img{
+    margin: 2.5%;
+    max-width: 10%;
+    float: right;
+    border-radius: 5%;
+}
+.Reves{
+    margin: 4%;
+    margin-left: 6.3%;
+}
+.Reves h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2vw;
+}
+.Reves p{
+    margin: 2%;
+    text-transform: 1vw;
+    font-size: 1.2vw;
+}
+.Reves img{
+    width:35vw;
+    height: auto;
+    transition: 0.5s;
+    float: right;
+    padding-left: 5%;
+    cursor: pointer;
+}
